@@ -69,7 +69,7 @@ var (
 		Month:    time.November,
 		Day:      20,
 		Observed: weekendAlt,
-		Weekday:  time.Monday
+		Weekday:  time.Monday,
 		Func:     cal.CalcWeekdayFrom,
 	}
 

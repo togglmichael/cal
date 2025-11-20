@@ -69,7 +69,8 @@ var (
 		Month:    time.November,
 		Day:      20,
 		Observed: weekendAlt,
-		Func:     cal.CalcDayOfMonth,
+		Weekday:  time.Monday
+		Func:     cal.CalcWeekdayFrom,
 	}
 
 	// ChristmasDay represents Christmas Day on 25-Dec
